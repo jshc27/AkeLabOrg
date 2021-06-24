@@ -1,6 +1,4 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# PRUEBA DE SELECCIÓN JAVASCRIPT AKELAB
 
 ## Available Scripts
 
@@ -11,60 +9,42 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Ejercicios 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. La serie Fibonacci es una sucesión de números que inician por la unidad y cada uno
+de sus términos es la suma de los dos anteriores (1, 1, 2, 3, 5, 8, 13, 21, ...).
+Crear una página que contenga un input de texto y un botón. En el input de texto se
+debe poder ingresar un número entero igual o mayor a 1 que representa la cantidad
+de números que deseamos mostrar de la serie y al presionar el botón se deben
+mostrar en pantalla.
+Ejemplo: La caja de texto tiene el número 6, al presionar el botón se deberían mostrar
+los números (1, 1, 2, 3, 5, 8).
+Validar que la caja de texto no puede tener números menores a 1 o texto, mostrar
+mensaje de error.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Crear una página que contenga un input de texto y un botón. En el input de texto se
+debe poder ingresar un número entero igual o mayor a 1 que representan la cantidad
+de número que deseamos mostrar. Al presionar el botón en pantalla se deben mostrar
+los números en secuencia (1, 2, 3, 4, 5, 6, 7, 8, ...) adicional se deben reemplazar los
+número múltiplos de 3 por la palabra AKE y los números múltiplos de 5 por la palabra
+LAB. Si el número es múltiplo de 3 y de 5 se deben mostrar ambas palabras AKELAB.
+Ejemplo: La caja de texto tiene el número 20, al presionar el botón se debería mostrar
+en pantalla (1, 2, AKE, 4, LAB, AKE, 7, 8, AKE, LAB, 11, AKE, 13, 14, AKELAB, 16,
+17, AKE, 19, LAB).
+Validar que la caja de texto no puede tener números menores a 1 o texto, mostrar
+mensaje de error.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+3. Crear una página para visualizar películas de acuerdo con el mock-up que se  encuentra adjunto en el correo. La página debe mostrar todas las películas que se  encuentran en el archivo JSON (movies.json) adjunto. 
+● Primero debes crear un servidor de node con el archivo JSON de las películas. El  servidor debe tener un endpoint y por medio de una petición http con el método GET  o POST el servidor debe responder el contenido del archivo JSON. El endpoint debe  validar el contenido de la variable “Akelab” para responder con la información de las  películas. Si el endpoint utiliza el método GET pasar la variable por parámetros de la 
+petición o si el endpoint utiliza el método POST pasar la variable por el body de la  petición. El valor de la variable es: Akelab = 123456789 
+● Para realizar la petición http puedes utilizar alguna librería de Javascript o utilizar el  método fetch. Ten presente que las peticiones http son asíncronas por lo tanto debes  controlarlas por medio de callbacks, promesas o async await. Puedes agregar un  loading a la página mientras obtienes los datos. 
+● La página de las películas debe contar con una barra de búsqueda para filtrar las  películas por nombre. No debe discriminar por mayúsculas o minúsculas. ● La página debe contar con un botón de filtro por género. El icono del botón se  encuentra adjunto en el correo. Al hacer clic sobre el botón debe desplegar las  opciones de género con un checkbox para filtrar por cada género o varios. 
+● La página debe contar con botón para ordenar las películas de acuerdo con fecha o  calificación. 
+● Para mostrar las imágenes de las películas deben concatenar el siguiente link  (https://image.tmdb.org/t/p/w500) con la propiedad “poster_path”. 
+Ej: https://image.tmdb.org/t/p/w500/1yWmCAIGSVNuTOGyz9F48W9g1Ux.jpg 
