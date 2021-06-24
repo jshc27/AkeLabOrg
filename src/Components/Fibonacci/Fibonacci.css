@@ -1,0 +1,40 @@
+body {
+
+    display: flex;
+    height: 650px;
+    background-color: #18bc9c;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+h1, .description p, button {
+    margin-bottom: 30px;
+}
+.container {
+
+    width: 650px;
+    padding: 40px;
+    background-color: #2c3e50;
+    background-blend-mode: soft-light, normal;
+    box-shadow: inset -2.5px -2.5px 5px #FAFBFF, inset 2.5px 2.5px 5px #2c3e50;
+    border-radius: 20px;
+
+}
+
+.main input {
+
+    height: 25px;
+    width: 150px;
+    margin-right: 10px;
+
+}
+
+.main button {
+
+    height: 30px;
+    width: 80px;
+    outline: none;
+
+}
