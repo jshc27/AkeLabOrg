@@ -1,6 +1,13 @@
-.listo {
+body {
 
-    background-color: red;
-    height: 300px;
-    height: 300px;
+    display: flex;
+    height: 650px;
+    background-color: #18bc9c;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.result {
+    display: flex;
 }

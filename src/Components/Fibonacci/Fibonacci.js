@@ -39,7 +39,6 @@ class Fibonacci extends Component {
                 <div className="result">{this.state.previous1}</div>
               </div>
           </div>
-            
           </Fragment>
         )
     }
