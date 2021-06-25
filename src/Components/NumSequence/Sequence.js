@@ -32,6 +32,7 @@ const Sequence = () => {
         }
         
         setarrayNumero( newArray);
+        setinputValue("")
 
     }
 
