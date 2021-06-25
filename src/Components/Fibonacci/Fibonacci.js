@@ -17,17 +17,14 @@ const Fibonacci = () => {
     const secuencia = []
 
     for(let i=1; i<= Number(inputValue); i=i+1) {
-        console.log(arrayNumero)
+        // console.log(arrayNumero)
         let newNumber = 1;
         newNumber = secuencia[i] + secuencia[i + 1];
+        // console.log(newNumber)
         secuencia.push(newNumber);
     }
-
     setarrayNumero(secuencia);
   }
-
-
-
 
   return (
       <Fragment>
