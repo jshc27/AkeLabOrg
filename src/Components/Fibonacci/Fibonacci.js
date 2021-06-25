@@ -37,7 +37,7 @@ const Fibonacci = () => {
               <p>Es una sucesión de números que inician por la unidad y cada uno
                 de sus términos es la suma de los dos anteriores (1, 1, 2, 3, 5, 8, 13, 21, ...).</p>
               </div>
-              <div className="main">
+              <div className="mains">
                   <input
                   type="text" 
                   placeholder="Ingresar numero"

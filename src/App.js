@@ -3,7 +3,7 @@ import Fibonacci from './Components/Fibonacci/Fibonacci';
 import Sequence from './Components/NumSequence/Sequence';
 import Films from './Components/Films/Films';
 import './App.css';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
   return (
@@ -36,15 +36,13 @@ function App() {
             <Route path="/" exact>
               <div> 
               <p className="text">Hola, excelente dia. Esta es la pagina de inicio.
-                 Ingresa a cada una de las rutas y experimenta.
+                Ingresa a cada una de las rutas y experimenta.
               </p>
               </div>
             </Route>
           </Switch>
-          
         </div>
     </Router>
-   
   );
 }
 

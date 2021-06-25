@@ -42,7 +42,7 @@ const Sequence = () => {
                 <div className="description">
                     <p>Ingresa un numero y observa el resultado.</p>
                 </div>
-                <div className="main">
+                <div className="mains">
                     <input
                     name="valor"
                     type="text" 
