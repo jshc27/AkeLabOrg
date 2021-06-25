@@ -49,8 +49,8 @@ const Films = () => {
                                     <img></img>
                                 </div>
                                 <div className="conatiner_dates">
-                                    <p>Funci</p>
-                                    <p>Funci</p>
+                                    <p>xxxxxx</p>
+                                    <p>xxxxxx</p>
                                 </div>
                             </div>
                         </div>
@@ -63,8 +63,8 @@ const Films = () => {
                                     <img></img>
                                 </div>
                                 <div className="conatiner_dates">
-                                    <p>Funci</p>
-                                    <p>Funci</p>
+                                    <p>xxxxxx</p>
+                                    <p>xxxxxx</p>
                                 </div>
                             </div>
                         </div>
@@ -77,8 +77,8 @@ const Films = () => {
                                     <img></img>
                                 </div>
                                 <div className="conatiner_dates">
-                                    <p>Funci</p>
-                                    <p>Funci</p>
+                                    <p>xxxxxx</p>
+                                    <p>xxxxxx</p>
                                 </div>
                             </div>
                         </div>
@@ -91,8 +91,8 @@ const Films = () => {
                                     <img></img>
                                 </div>
                                 <div className="conatiner_dates">
-                                    <p>Funci</p>
-                                    <p>Funci</p>
+                                    <p>xxxxxx</p>
+                                    <p>xxxxxx</p>
                                 </div>
                             </div>
                         </div>
@@ -105,8 +105,8 @@ const Films = () => {
                                     <img></img>
                                 </div>
                                 <div className="conatiner_dates">
-                                    <p>Funci</p>
-                                    <p>Funci</p>
+                                    <p>xxxxxx</p>
+                                    <p>xxxxxx</p>
                                 </div>
                             </div>
                         </div>
@@ -119,8 +119,8 @@ const Films = () => {
                                     <img></img>
                                 </div>
                                 <div className="conatiner_dates">
-                                    <p>Funci</p>
-                                    <p>Funci</p>
+                                    <p>xxxxxx</p>
+                                    <p>xxxxxx</p>
                                 </div>
                             </div>
                         </div>

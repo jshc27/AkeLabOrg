@@ -14,16 +14,19 @@ const Fibonacci = () => {
 
   const handleMostrarNumeros = () => {
 
-    const secuencia = []
+    const secuencia = [0,1]
 
-    for(let i=1; i<= Number(inputValue); i=i+1) {
-        // console.log(arrayNumero)
-        let newNumber = 1;
-        newNumber = secuencia[i] + secuencia[i + 1];
-        // console.log(newNumber)
-        secuencia.push(newNumber);
+    for (let index = 0; index < inputValue - 1; index++) {
+      let newNumber = 0;
+      newNumber = secuencia[index] + secuencia[ index + 1]
+      secuencia.push(newNumber)
+
     }
-    setarrayNumero(secuencia);
+    secuencia.shift();
+    console.log(secuencia)
+    setarrayNumero(secuencia)
+
+    setinputValue("")
   }
 
   return (
