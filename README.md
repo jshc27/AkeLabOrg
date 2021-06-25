@@ -48,3 +48,11 @@ petición o si el endpoint utiliza el método POST pasar la variable por el body
 ● La página debe contar con botón para ordenar las películas de acuerdo con fecha o  calificación. 
 ● Para mostrar las imágenes de las películas deben concatenar el siguiente link  (https://image.tmdb.org/t/p/w500) con la propiedad “poster_path”. 
 Ej: https://image.tmdb.org/t/p/w500/1yWmCAIGSVNuTOGyz9F48W9g1Ux.jpg 
+
+## Pantallas 
+![inicio](https://user-images.githubusercontent.com/56690309/123491172-b370cb80-d5db-11eb-9c5a-1708e89a3b47.png)
+![fibonacci](https://user-images.githubusercontent.com/56690309/123491176-b8ce1600-d5db-11eb-9653-598dafb1aef8.png)
+![Secuencia](https://user-images.githubusercontent.com/56690309/123491183-bcfa3380-d5db-11eb-9277-01637747b715.png)
+![films](https://user-images.githubusercontent.com/56690309/123491185-bf5c8d80-d5db-11eb-95eb-83de75c82c05.png)
+
+
