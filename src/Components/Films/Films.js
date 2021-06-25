@@ -5,17 +5,17 @@ import './Films.css';
 
 const Films = () => {
 
-    const datos = [
-        { id: 1, nombre:'Juan'},
-        { id: 2, nombre:'Juhan'}
-    ]
+    // const datos = [
+    //     { id: 1, nombre:'Juan'},
+    //     { id: 2, nombre:'Juhan'}
+    // ]
 
-    const [equipo, setEquipo] = React.useState(null)
+    // const [video, setVideo] = React.useState(null)
 
-    React.useEffect(()=> {
-        setEquipo(datos)
+    // React.useEffect(()=> {
+    //     setVideo(datos)
         
-    }, [])
+    // }, [])
 
 
     return(

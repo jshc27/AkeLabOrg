@@ -6,12 +6,17 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
+
 }
 
 .result {
+
     display: flex;
+
 }
 
 .mains input {
+
     outline: none;
+
 }
