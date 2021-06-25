@@ -5,12 +5,12 @@ const Sequence = () => {
 
     const [ arrayNumero, setarrayNumero ] = useState([])
 
-    const [ numero, setNumero] = useState(1)
-
     const [ inputValue, setinputValue ] = useState("")
 
+
     const handleChange = (event) => {
-        setinputValue(event.target.value)
+        setinputValue(event.target.value);
+       
     }
 
     const handleMostrarNumeros = () => {
@@ -40,10 +40,11 @@ const Sequence = () => {
             <div className="container">
                 <h1>Secuencia de numeros</h1>
                 <div className="description">
-                    <p>Numero</p>
+                    <p>Ingresa un numero y observa el resultado.</p>
                 </div>
                 <div className="main">
                     <input
+                    name="valor"
                     type="text" 
                     placeholder="Ingresar numero"
                     onChange={handleChange}

@@ -1,11 +1,10 @@
 import React, { Fragment, useState } from 'react';
 import './Fibonacci.css';
 
+
 const Fibonacci = () => {
 
   const [ arrayNumero, setarrayNumero ] = useState([])
-
-  const [ numero, setNumero] = useState(1)
 
   const [ inputValue, setinputValue ] = useState("")
 
@@ -26,6 +25,10 @@ const Fibonacci = () => {
 
     setarrayNumero(secuencia);
   }
+
+
+
+
   return (
       <Fragment>
           <div className="container">

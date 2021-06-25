@@ -1,0 +1,52 @@
+
+.container_Films {
+
+    width: 1000px;
+    height: 100%;
+    border: 0px;
+
+}
+
+.title h1 {
+
+    margin-left: 22px;
+}
+
+.header_container {
+
+    background-color: white;
+    margin: 0px;
+    padding: 10px;
+
+
+}
+
+.title {
+
+}
+
+.elements input {
+
+    width: 300px;
+    height: 30px;
+    margin-left: 22px;
+    margin-right: 10px;
+    outline: none;
+   
+
+}
+.elements {
+    display: flex;
+   
+}
+
+.text_ordenar p {
+    margin: 0px;
+}
+
+.text_ordenar {
+
+    display: flex;
+    align-items: center;
+
+}
