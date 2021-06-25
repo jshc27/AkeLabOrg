@@ -11,3 +11,7 @@ body {
 .result {
     display: flex;
 }
+
+.main input {
+    outline: none;
+}
